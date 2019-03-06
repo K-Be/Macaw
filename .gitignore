@@ -23,3 +23,5 @@ contents.xcworkspacedata
 .Macaw.podspec.swp
 .Package.swift.swp
 Podfile.lock
+## App Code
+.idea

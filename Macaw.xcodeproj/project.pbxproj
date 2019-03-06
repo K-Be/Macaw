@@ -19,6 +19,9 @@
 		30FF496D215CF27E00FF653C /* MCAShapeLayerLineCap_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF496C215CF27E00FF653C /* MCAShapeLayerLineCap_macOS.swift */; };
 		30FF496F215CF3B000FF653C /* MCAMediaTimingFunctionName_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF496E215CF3B000FF653C /* MCAMediaTimingFunctionName_iOS.swift */; };
 		30FF4971215CF4CE00FF653C /* MCAMediaTimingFunctionName_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF4970215CF4CE00FF653C /* MCAMediaTimingFunctionName_macOS.swift */; };
+		4985172A222F83BB0061410C /* PixelColorsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49851729222F83BB0061410C /* PixelColorsProvider.swift */; };
+		49B40682222F6F6F005EB587 /* RenderingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B40681222F6F6F005EB587 /* RenderingTests.swift */; };
+		49B40684222F718F005EB587 /* floatBorders.svg in Resources */ = {isa = PBXBuildFile; fileRef = 49B40683222F718E005EB587 /* floatBorders.svg */; };
 		5713C4E21E51EC8F00BBA4D9 /* TouchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5713C4E11E51EC8F00BBA4D9 /* TouchEvent.swift */; };
 		5713C4F31E5AD46800BBA4D9 /* ControlStatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5713C4F21E5AD46800BBA4D9 /* ControlStatesTests.swift */; };
 		5713C4F51E5AE2C300BBA4D9 /* CombineAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5713C4F41E5AE2C300BBA4D9 /* CombineAnimationTests.swift */; };
@@ -460,14 +463,14 @@
 		5B6E194420AC58F900454E7E /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E192020AC58F900454E7E /* Gradient.swift */; };
 		5B7D7ED321300D4A00B5ED00 /* TimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7D7ED221300D4A00B5ED00 /* TimingFunction.swift */; };
 		5B7D7ED421300D4A00B5ED00 /* TimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7D7ED221300D4A00B5ED00 /* TimingFunction.swift */; };
-		5B7E79CE20CBE69700C50BCF /* masking-path-02-b-manual.reference in Resources */ = {isa = PBXBuildFile; fileRef = 5B7E79CC20CBE69600C50BCF /* masking-path-02-b-manual.reference */; };
-		5B7E79CF20CBE69700C50BCF /* masking-path-02-b-manual.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5B7E79CD20CBE69700C50BCF /* masking-path-02-b-manual.svg */; };
-		5B7E79DE20D2781A00C50BCF /* masking-intro-01-f-manual.reference in Resources */ = {isa = PBXBuildFile; fileRef = 5B7E79DC20D2781A00C50BCF /* masking-intro-01-f-manual.reference */; };
-		5B7E79DF20D2781A00C50BCF /* masking-intro-01-f-manual.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5B7E79DD20D2781A00C50BCF /* masking-intro-01-f-manual.svg */; };
 		5B7E79C020CA7E9300C50BCF /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7E79BF20CA7E9300C50BCF /* Pattern.swift */; };
 		5B7E79C120CA7E9300C50BCF /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7E79BF20CA7E9300C50BCF /* Pattern.swift */; };
 		5B7E79C420CA7F1B00C50BCF /* pservers-grad-03-b-manual.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5B7E79C220CA7F1A00C50BCF /* pservers-grad-03-b-manual.svg */; };
 		5B7E79C520CA7F1B00C50BCF /* pservers-grad-03-b-manual.reference in Resources */ = {isa = PBXBuildFile; fileRef = 5B7E79C320CA7F1B00C50BCF /* pservers-grad-03-b-manual.reference */; };
+		5B7E79CE20CBE69700C50BCF /* masking-path-02-b-manual.reference in Resources */ = {isa = PBXBuildFile; fileRef = 5B7E79CC20CBE69600C50BCF /* masking-path-02-b-manual.reference */; };
+		5B7E79CF20CBE69700C50BCF /* masking-path-02-b-manual.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5B7E79CD20CBE69700C50BCF /* masking-path-02-b-manual.svg */; };
+		5B7E79DE20D2781A00C50BCF /* masking-intro-01-f-manual.reference in Resources */ = {isa = PBXBuildFile; fileRef = 5B7E79DC20D2781A00C50BCF /* masking-intro-01-f-manual.reference */; };
+		5B7E79DF20D2781A00C50BCF /* masking-intro-01-f-manual.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5B7E79DD20D2781A00C50BCF /* masking-intro-01-f-manual.svg */; };
 		5BAE201F208E1211006BF277 /* SVGCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE201E208E1211006BF277 /* SVGCanvas.swift */; };
 		5BAE2038208E163D006BF277 /* polyline.reference in Resources */ = {isa = PBXBuildFile; fileRef = 5BAE2022208E1637006BF277 /* polyline.reference */; };
 		5BAE2039208E163D006BF277 /* polygon.reference in Resources */ = {isa = PBXBuildFile; fileRef = 5BAE2023208E1637006BF277 /* polygon.reference */; };
@@ -557,6 +560,9 @@
 		30FF496C215CF27E00FF653C /* MCAShapeLayerLineCap_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCAShapeLayerLineCap_macOS.swift; sourceTree = "<group>"; };
 		30FF496E215CF3B000FF653C /* MCAMediaTimingFunctionName_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCAMediaTimingFunctionName_iOS.swift; sourceTree = "<group>"; };
 		30FF4970215CF4CE00FF653C /* MCAMediaTimingFunctionName_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCAMediaTimingFunctionName_macOS.swift; sourceTree = "<group>"; };
+		49851729222F83BB0061410C /* PixelColorsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelColorsProvider.swift; sourceTree = "<group>"; };
+		49B40681222F6F6F005EB587 /* RenderingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderingTests.swift; sourceTree = "<group>"; };
+		49B40683222F718E005EB587 /* floatBorders.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = floatBorders.svg; sourceTree = "<group>"; };
 		5713C4E11E51EC8F00BBA4D9 /* TouchEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchEvent.swift; sourceTree = "<group>"; };
 		5713C4F21E5AD46800BBA4D9 /* ControlStatesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlStatesTests.swift; sourceTree = "<group>"; };
 		5713C4F41E5AE2C300BBA4D9 /* CombineAnimationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombineAnimationTests.swift; sourceTree = "<group>"; };
@@ -878,13 +884,13 @@
 		5B6E191F20AC58F900454E7E /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		5B6E192020AC58F900454E7E /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 		5B7D7ED221300D4A00B5ED00 /* TimingFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingFunction.swift; sourceTree = "<group>"; };
+		5B7E79BF20CA7E9300C50BCF /* Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pattern.swift; sourceTree = "<group>"; };
+		5B7E79C220CA7F1A00C50BCF /* pservers-grad-03-b-manual.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pservers-grad-03-b-manual.svg"; sourceTree = "<group>"; };
+		5B7E79C320CA7F1B00C50BCF /* pservers-grad-03-b-manual.reference */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pservers-grad-03-b-manual.reference"; sourceTree = "<group>"; };
 		5B7E79CC20CBE69600C50BCF /* masking-path-02-b-manual.reference */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "masking-path-02-b-manual.reference"; sourceTree = "<group>"; };
 		5B7E79CD20CBE69700C50BCF /* masking-path-02-b-manual.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "masking-path-02-b-manual.svg"; sourceTree = "<group>"; };
 		5B7E79DC20D2781A00C50BCF /* masking-intro-01-f-manual.reference */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "masking-intro-01-f-manual.reference"; sourceTree = "<group>"; };
 		5B7E79DD20D2781A00C50BCF /* masking-intro-01-f-manual.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "masking-intro-01-f-manual.svg"; sourceTree = "<group>"; };
-		5B7E79BF20CA7E9300C50BCF /* Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pattern.swift; sourceTree = "<group>"; };
-		5B7E79C220CA7F1A00C50BCF /* pservers-grad-03-b-manual.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pservers-grad-03-b-manual.svg"; sourceTree = "<group>"; };
-		5B7E79C320CA7F1B00C50BCF /* pservers-grad-03-b-manual.reference */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pservers-grad-03-b-manual.reference"; sourceTree = "<group>"; };
 		5BAE201E208E1211006BF277 /* SVGCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGCanvas.swift; sourceTree = "<group>"; };
 		5BAE2022208E1637006BF277 /* polyline.reference */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polyline.reference; sourceTree = "<group>"; };
 		5BAE2023208E1637006BF277 /* polygon.reference */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polygon.reference; sourceTree = "<group>"; };
@@ -1013,6 +1019,7 @@
 		57CAB1241D7832E000FD8E47 /* svg */ = {
 			isa = PBXGroup;
 			children = (
+				49B40683222F718E005EB587 /* floatBorders.svg */,
 				5B270B5A214BBC14001AD741 /* arcsGroup.reference */,
 				5BAE2028208E1637006BF277 /* circle.reference */,
 				57CAB1251D7832E000FD8E47 /* circle.svg */,
@@ -1340,11 +1347,13 @@
 				57CAB1241D7832E000FD8E47 /* svg */,
 				5B1AE18320B6A669007EECCB /* w3cSVGTests */,
 				57CAB1221D782DFC00FD8E47 /* TestUtils.swift */,
+				49851729222F83BB0061410C /* PixelColorsProvider.swift */,
 				57FCD27B1D76EA4600CC0FB6 /* MacawTests.swift */,
 				C4820B191F458D64008CE0FF /* MacawSVGTests.swift */,
 				5BAE2057208F24DE006BF277 /* SceneSerialization.swift */,
 				57FCD27D1D76EA4600CC0FB6 /* Info.plist */,
 				6A616BFB212964E8006A07FA /* SVGParserTest.swift */,
+				49B40681222F6F6F005EB587 /* RenderingTests.swift */,
 			);
 			path = MacawTests;
 			sourceTree = "<group>";
@@ -1839,6 +1848,7 @@
 				5B1AE28620B6A669007EECCB /* paths-data-10-t-manual.reference in Resources */,
 				5B1AE2D420B6A669007EECCB /* painting-stroke-05-t-manual.svg in Resources */,
 				5B1AE2CF20B6A669007EECCB /* paths-data-07-t-manual.reference in Resources */,
+				49B40684222F718F005EB587 /* floatBorders.svg in Resources */,
 				5B1AE28D20B6A669007EECCB /* shapes-circle-01-t-manual.reference in Resources */,
 				5B1AE2A320B6A669007EECCB /* painting-fill-01-t-manual.svg in Resources */,
 				5B1AE2CB20B6A669007EECCB /* painting-fill-02-t-manual.reference in Resources */,
@@ -2296,11 +2306,13 @@
 				C4820B1A1F458D64008CE0FF /* MacawSVGTests.swift in Sources */,
 				5713C4F91E5C3FEE00BBA4D9 /* DelayedAnimationTests.swift in Sources */,
 				5713C4F31E5AD46800BBA4D9 /* ControlStatesTests.swift in Sources */,
+				49B40682222F6F6F005EB587 /* RenderingTests.swift in Sources */,
 				57FCD27C1D76EA4600CC0FB6 /* MacawTests.swift in Sources */,
 				A7E675561EC4213500BD9ECB /* NodeBoundsTests.swift in Sources */,
 				6A616BFC212964E8006A07FA /* SVGParserTest.swift in Sources */,
 				57E0EB2E1EB34CDD00638039 /* AnimationUtilsTests.swift in Sources */,
 				5713C4F51E5AE2C300BBA4D9 /* CombineAnimationTests.swift in Sources */,
+				4985172A222F83BB0061410C /* PixelColorsProvider.swift in Sources */,
 				57CAB1231D782DFC00FD8E47 /* TestUtils.swift in Sources */,
 				5BAE2058208F24DE006BF277 /* SceneSerialization.swift in Sources */,
 			);
